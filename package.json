@@ -1,0 +1,35 @@
+{
+  "name": "buka-kamar-auth-webapi",
+  "version": "1.0.0",
+  "description": "buka kamar authentication REST api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "6.9.2",
+    "npm": "3.10.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stackalterdev/buka-kamar-auth-webapi.git"
+  },
+  "author": "Stackalterdev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stackalterdev/buka-kamar-auth-webapi/issues"
+  },
+  "homepage": "https://github.com/stackalterdev/buka-kamar-auth-webapi#readme",
+  "dependencies": {
+    "buka-kamar-model": "git+https://github.com/stackalterdev/buka-kamar-model.git#dev",
+    "buka-kamar-module": "git+https://github.com/stackalterdev/buka-kamar-module.git#dev",
+    "jsonwebtoken": "^7.1.9",
+    "mongo-factory": "^1.0.0",
+    "mongodb": "^2.2.10",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.1.0",
+    "passport-local": "^1.0.0",
+    "restify": "^4.1.1",
+    "restify-router": "^0.2.1"
+  }
+}
